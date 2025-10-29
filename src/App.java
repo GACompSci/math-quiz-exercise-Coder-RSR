@@ -10,7 +10,7 @@ public class App {
             score++;
             System.out.println("Nice Job! Your score is:" + score + "/1");
         } else{
-            System.out.println("You got it wrong. Your score is:" + score + "/1");
+            System.out.println("You got it wrong.  The answer was " + a+b + ".Your score is:" + score + "/1");
         }
 
         //subtraction
@@ -25,7 +25,7 @@ public class App {
             score++;
             System.out.println("Nice Job. Your score is:" + score + "/2");
         } else{
-            System.out.println("You got it wrong. Your score is:" + score + "/2");
+            System.out.println("You got it wrong. The answer was " + Methods.roundDouble(1, aD-bD) + ". Your score is:" + score + "/2");
         }
 
         //multiplcation 
@@ -37,7 +37,7 @@ public class App {
             score++;
             System.out.println("Nice Job! Your score is:" + score + "/3");
         } else{
-            System.out.println("You got it wrong. Your score is:" + score + "/3");
+            System.out.println("You got it wrong. The answer was " + a*b + ". Your score is:" + score + "/3");
         }
         
         //division
@@ -53,7 +53,7 @@ public class App {
             score++;
             System.out.println("Nice Job. Your score is:" + score + "/4");
         } else{
-            System.out.println("You got it wrong. Your score is:" + score + "/4");
+            System.out.println("You got it wrong. The answer was " + Methods.roundDouble(1, aD/bD) + ". Your score is:" + score + "/4");
         }
 
         //mod 
@@ -65,7 +65,7 @@ public class App {
             score++;
             System.out.println("Nice Job! Your score is:" + score + "/5");
         } else{
-            System.out.println("You got it wrong. Your score is:" + score + "/5");
+            System.out.println("You got it wrong. The answer was " + a%b + ".Your score is:" + score + "/5");
         }
         
 
